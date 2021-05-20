@@ -1,0 +1,454 @@
+* {
+    margin: 0;
+}
+/* body{
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+} */
+
+/* home css start  */
+
+/* home css style start  */
+.sec {
+    width: 100%;
+    height: 98.5vh;
+    position: relative;
+    background: linear-gradient( 140deg,
+     #03a9f4 , #e91e63   );
+    /* overflow-y: scroll;
+    scroll-behavior: smooth; */
+}
+header {   
+    padding-right: 20px;
+    height: 9vh;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+header > a {
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+
+
+.content {
+    padding-top: 22vh;
+    display: grid;
+    grid-template-columns: 45px auto;
+    word-spacing: 5px;
+    line-height: 35px;
+    padding-bottom: 180px;
+}
+.text {
+    padding-right: 10%;
+    padding-left: 8%;
+}
+h1 {
+    color:#fff ;
+    text-transform: capitalize;
+    padding-left: 40px;
+    background: rgba(0, 0, 0, 0.09);
+    padding-top: 37px;
+}
+.home {
+    color: #fff;
+    font-size: 22px;
+    background: rgba(0, 0, 0, 0.09);
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 32px;
+}
+.icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 25px;
+}
+i {
+    color: #fff;
+}
+
+/* home css style end  */
+
+/* home css layout start  */
+.custom-shape-divider-bottom-1621308502 {
+    position: absolute;
+    top: 79.5vh;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1621308502 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1621308502 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/* home css layout end  */
+
+
+/*home media quire start */
+
+@media only screen and (max-width: 580px) {
+    .sec {
+        height: 88vh;
+    }
+    header {   
+        height: 6vh;
+        padding-right: 0px;
+    }
+    header > a {
+        padding: 15px;
+        font-size: 23px;
+    }
+    .content {
+        height: 50vh;
+        padding-top: 15vh;
+        word-spacing: 3px;
+        line-height: 29px;
+        padding-bottom: 170px;
+    }
+    h1 {
+        margin-top: 9.5%;
+        font-size: 25px;
+        padding-top: 25px;
+        padding-right: 5px;
+        padding-left: 20px;
+    }
+    .home {
+     padding-top: 20px;
+     font-size: 21px;
+     padding-bottom: px;
+     padding-left: 20px;
+    }
+    .icon {
+        display: flex;
+        justify-content: space-around;
+        font-size: 21px;
+        padding-top: 5px;
+        padding-bottom: 50px;  
+    }
+    /* .icon a {
+        fo
+    } */
+    .custom-shape-divider-bottom-1621308502 {
+        position: absolute;
+        top: 69vh;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+    }
+ }
+
+/* home media quire end */
+
+/* home page end  */
+
+/* about page start  */
+
+/* about page css style start */
+
+.about-contant {
+    width: 100%;
+    height: auto ;
+    margin-top: 13vh;
+    margin-bottom: 13vh;
+    /* overflow-y: scroll;
+    scroll-behavior: smooth; */
+}
+h2 {
+    padding-left: 13vh;
+    font-size: 40px;
+    color: #03a9f4;
+    padding-bottom: 20px;
+}
+.para {
+    padding-left: 17vh;
+    padding-right: 7vh;
+    font-size: 25px;
+    word-spacing: 3px;
+    line-height: 35px;
+}
+
+/* about page css style end */
+
+/*about media quire start */
+
+@media only screen and (max-width: 580px) {
+    .about-contant {
+        margin-top: 11vh;
+        margin-bottom: 11vh;
+    }
+    h2 {
+        padding-left: 15%;
+        padding-top: 3vh;
+        font-size: 35px;
+        padding-bottom: 10px;
+    }
+    .para {
+        padding-left: 11vh;
+        padding-right: 7vh;
+        font-size: 22px;
+        word-spacing: 3px;
+        line-height: 30px;
+    }
+}    
+
+/*about media quire end */
+
+/* about page end  */
+
+/* contact page start  */
+
+/* contact page style start  */
+
+.inf {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient( 140deg,
+    #03a9f4 , #e91e63 );
+}
+.contact  {
+    padding-left: 9%;
+    padding-bottom: 4%;
+    padding-top: 13%;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+.logoicon {
+    display: grid;
+    grid-template-columns: 10% auto;
+    margin: 6px;
+}
+.icone{
+    padding-top: 4%;
+}
+.icone a {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+.icone a i {
+    font-size: 23px;
+    min-width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #fff;
+    color: rgba(11, 133, 247, 0.966);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoicon p {
+    padding: 10px;
+}
+.p-text {
+    color: #fff;
+    font-size: 21px;
+}
+h5{
+    font-size: 25px;
+}
+.contactfrom {
+    padding: 0;
+}
+h4 {
+    color: #fff;
+    font-size: 35px;
+}
+form {
+    padding-left: 10px;
+}
+.contactfrom .inputBox {
+    height: 10vh;
+    width: 100%;
+    margin-top: 10px;
+}
+.contactfrom .inputBox input,
+.contactfrom .inputBox textarea {
+    width: 95%;
+    padding-top: 5px;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid#fff;
+    outline: none;
+    resize: none;
+}
+.contactfrom .inputBox input[type="submit"]
+{
+    position: relative;
+    top: -11px;
+    width: 95.8%;
+    background:#00bcd4 ;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 18px;
+}
+h6 {
+    color: #fff; 
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+/* contact page style end  */
+
+/* contact page layout start  */
+
+.custom-shape-divider-top-1621308804 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1621308804 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1621308804 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/* contact page layout end  */
+
+/* contact page midea quri start  */
+
+@media only screen and (max-width: 1200px) {
+
+    .contact  {
+        /* padding-left: 9%; */
+        padding-bottom: 4%;
+
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+@media only screen and (max-width: 1100px) {
+   .contactfrom {
+       width: 80%;
+       padding-right: 10%;
+   }
+    
+}
+@media only screen and (max-width: 580px) {
+    .inf {
+        height: 100vh;
+    }
+    .contact  {
+        /* margin-top: 25vh; */
+        margin: 9vh;
+        padding: 0;
+        padding-bottom: 0%;
+        padding-top: 11%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .icone {
+        padding-top: 18%;
+    }
+    .logoicon {
+        display: grid;
+        grid-template-columns: 17% auto;
+        margin: 6px;
+        text-align: left;
+    }
+    .icone a i {
+        font-size: 23px;
+        min-width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        background: #fff;
+        color: rgba(11, 133, 247, 0.966);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .linkname {
+        font-size: 20px ;
+    }
+    .p-text{
+        font-size: 17px;
+    }
+    h4 {
+        font-size: 25px;
+    }
+    form {
+        width: 90%;
+        padding-left: 10%;
+    }
+    .contactfrom {
+        margin-top: 5vh;
+        width: 100%;
+    }
+    .contactfrom .inputBox {
+        height: 8vh;
+        padding: 0;
+        margin: 0;
+        margin-top: 0px;
+    }
+    .contactfrom .inputBox input,
+    .contactfrom .inputBox textarea
+    {
+        padding-top: 0px;
+        font-size: 14px;
+        margin: 0px 0;
+    }
+    .contactfrom .inputBox input[type="submit"]
+    {
+        position: relative;
+        top :-7px;
+        margin: 0;
+        width: 96.5%;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        font-size: 15px;
+    }
+    h6 {
+        float: left;
+        font-size: 19px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    
+}
+/* contact page midea quri end  */
+
+/* contact page end  */
