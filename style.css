@@ -78,7 +78,7 @@ i {
 /* home css layout start  */
 .custom-shape-divider-bottom-1621308502 {
     position: absolute;
-    top: 79.5vh;
+    top: 77vh;
     left: 0;
     width: 100%;
     overflow: hidden;
@@ -102,9 +102,9 @@ i {
 
 /*home media quire start */
 
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 480px) {
     .sec {
-        height: 88vh;
+        height: 89.5vh;
     }
     header {   
         height: 6vh;
@@ -141,12 +141,9 @@ i {
         padding-top: 5px;
         padding-bottom: 50px;  
     }
-    /* .icon a {
-        fo
-    } */
     .custom-shape-divider-bottom-1621308502 {
         position: absolute;
-        top: 69vh;
+        top: 73vh;
         left: 0;
         width: 100%;
         overflow: hidden;
