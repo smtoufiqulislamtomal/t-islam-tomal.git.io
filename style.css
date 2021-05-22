@@ -449,3 +449,23 @@ h6 {
 /* contact page midea quri end  */
 
 /* contact page end  */
+
+/* scroll bar start */
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    background: linear-gradient( transparent,
+    #03a9f4 , #e91e63  );
+}
+::-moz-scrollbar {
+    width: 12px;
+}
+::-moz-scrollbar-thumb {
+    border-radius: 6px;
+    background: linear-gradient( transparent,
+    #03a9f4 , #e91e63  );
+}
+
+/* scroll bar end */
